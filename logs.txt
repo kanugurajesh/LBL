@@ -1,0 +1,911 @@
+Precaching 4 files. 63 files are already cached.
+logger.js:46 workbox Router is responding to: /cubemaster-pro/vendors-node_modules_webpack-dev-server_client_index_js_protocol_ws_3A_hostname_0_0_0_0_port_-05f373.e2d095f2.js
+logger.js:46 workbox Router is responding to: /cubemaster-pro/main.91ae9b7c.js
+logger.js:46 workbox Router is responding to: /cubemaster-pro/assets/manifest.json
+logger.js:46 workbox Router is responding to: /cubemaster-pro/assets/favicon.ico
+logger.js:46 workbox Router is responding to: /cubemaster-pro/assets/android-chrome-144x144.png
+logger.js:46 workbox During precaching cleanup, 7 cached requests were deleted.
+logger.js:46 workbox Router is responding to: /cubemaster-pro/
+logger.js:46 workbox Router is responding to: /cubemaster-pro/runtime.8ae44a88.js
+logger.js:46 workbox Router is responding to: /cubemaster-pro/vendors-node_modules_webpack-dev-server_client_index_js_protocol_ws_3A_hostname_0_0_0_0_port_-05f373.e2d095f2.js
+logger.js:46 workbox Router is responding to: /cubemaster-pro/main.91ae9b7c.js
+index.js:551 [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled.
+log.js:24 [HMR] Waiting for update signal from WDS...
+logger.js:46 workbox Router is responding to: /cubemaster-pro/vendors-node_modules_purecss_build_pure_css-node_modules_three_examples_jsm_controls_OrbitCon-8e60b5.8a12c743.js
+logger.js:46 workbox Router is responding to: /cubemaster-pro/src_app_cubemaster_js.124005bd.js
+logger.js:46 workbox Router is responding to: /cubemaster-pro/runtime.worker.db0bb138.worker.js
+index.js:7 SW registered:  ServiceWorkerRegistration
+logger.js:46 workbox Router is responding to: /cubemaster-pro/assets/manifest.json
+logger.js:46 workbox Router is responding to: /cubemaster-pro/assets/favicon.ico
+logger.js:46 workbox Router is responding to: /cubemaster-pro/assets/android-chrome-144x144.png
+logger.js:46 workbox Router is responding to: /cubemaster-pro/42d00812fae2fddabce9f77cda6eba13.wasm
+runtime.js:16 WebAssembly runtime loaded, initializing...
+runtime.js:19 Runtime initialization complete!
+runtime.worker.js:5 Worker initialized!
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))Understand this error
+logger.js:46 workbox Router is responding to: /cubemaster-pro/
+logger.js:46 workbox Router is responding to: /cubemaster-pro/assets/manifest.json
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+updateControls @ controls.js:236
+await in updateControls
+(anonymous) @ cubemaster.js:368
+renderFunc @ cubemaster.js:368
+requestAnimationFrame
+checkAndStartRendering @ cubemaster.js:321
+(anonymous) @ cubemaster.js:391Understand this error
+rubiks.js:597 Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+abort @ rubiks.js:597
+get @ rubiks.js:414
+isSolved @ runtime.js:124
+onmessage @ runtime.worker.js:9Understand this error
+runtime.worker.js:12 Worker operation failed: RuntimeError: Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))
+    at abort (rubiks.js:615:1)
+    at Object.get (rubiks.js:414:1)
+    at Object.isSolved (runtime.js:124:1)
+    at onmessage (runtime.worker.js:9:1)
+onmessage @ runtime.worker.js:12Understand this error
+controls.js:236 Uncaught (in promise) Aborted('stackSave' was not exported. add it to EXPORTED_RUNTIME_METHODS (see the Emscripten FAQ))

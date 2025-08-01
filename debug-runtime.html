@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Runtime</title>
+</head>
+<body>
+    <h1>Debug Runtime Test</h1>
+    <div id="output"></div>
+    <script type="module">
+        async function testRuntime() {
+            const output = document.getElementById('output');
+            
+            try {
+                output.innerHTML += '<p>Starting runtime test...</p>';
+                
+                // Import the runtime
+                const { createRuntime } = await import('./src/app/runtime.js');
+                output.innerHTML += '<p>Runtime module imported successfully</p>';
+                
+                // Create runtime instance
+                const runtime = await createRuntime();
+                output.innerHTML += '<p>Runtime created successfully</p>';
+                
+                // Test a simple operation
+                const solvedCube = [
+                    0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    1, 1, 1, 1, 1, 1, 1, 1, 1, 
+                    2, 2, 2, 2, 2, 2, 2, 2, 2, 
+                    3, 3, 3, 3, 3, 3, 3, 3, 3, 
+                    4, 4, 4, 4, 4, 4, 4, 4, 4, 
+                    5, 5, 5, 5, 5, 5, 5, 5, 5
+                ];
+                
+                const result = runtime.performOperation(solvedCube, 0); // F move
+                output.innerHTML += '<p>Operation performed successfully: ' + JSON.stringify(result.slice(0, 9)) + '</p>';
+                
+            } catch (error) {
+                output.innerHTML += '<p style="color: red;">Error: ' + error.message + '</p>';
+                output.innerHTML += '<p style="color: red;">Stack: ' + error.stack + '</p>';
+                console.error('Runtime test error:', error);
+            }
+        }
+        
+        testRuntime();
+    </script>
+</body>
+</html>
