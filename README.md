@@ -9,7 +9,7 @@ CubeMaster Pro is an advanced in-browser Rubik's cube simulator with an included
 - **Professional Interface**: Modern blue-themed UI with intuitive controls
 - **Multiple Algorithms**: Support for various solving methods and techniques
 
-![Screenshot](./docs/screenshot.png)
+<img width="1920" height="1080" alt="Screenshot 2025-08-02 103540" src="https://github.com/user-attachments/assets/c9f54d98-7738-4187-a1c8-84cd96e50d39" />
 
 Main functionality (operations on Rubik's Cube and the solver itself) is implemented in C (see [here](./src/runtime)) and compiled with Emscripten. The cube simulator is written in JavaScript using Three.js for stunning 3D graphics.
 
