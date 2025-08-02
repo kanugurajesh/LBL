@@ -51,7 +51,7 @@ Start development server:
 yarn dev
 ```
 
-The application will be available at: http://localhost:8080/cubemaster-pro/
+The application will be available at: http://localhost:8080
 
 Run tests (requires compiled WebAssembly):
 ```bash
