@@ -4,52 +4,78 @@ CubeMaster Pro is an advanced in-browser Rubik's cube simulator with an included
 
 ## Features
 
-- **3D Interactive Cube**: Smooth animations and realistic cube physics
-- **Advanced Solver**: Intelligent solving algorithms with step-by-step guidance
-- **Professional Interface**: Modern blue-themed UI with intuitive controls
-- **Multiple Algorithms**: Support for various solving methods and techniques
+- **3D Interactive Cube**: Smooth animations and realistic cube physics using Three.js
+- **Advanced LBL Solver**: Comprehensive Layer-by-Layer solving algorithm with step-by-step guidance
+- **High-Performance Runtime**: Core solving algorithms implemented in C and compiled to WebAssembly for optimal performance
+- **Professional Interface**: Modern blue-themed UI with intuitive controls and real-time 3D visualization
+- **Algorithm Optimization**: Built-in optimization routines to minimize move count and improve solving efficiency
+- **Multiple Cube Operations**: Support for face rotations, slice moves, and cube reorientations
+- **Production Optimizations**: Pre-generated lookup tables for faster solving in production builds
 
 <img width="1920" height="1080" alt="Screenshot 2025-08-02 103540" src="https://github.com/user-attachments/assets/c9f54d98-7738-4187-a1c8-84cd96e50d39" />
 
-Main functionality (operations on Rubik's Cube and the solver itself) is implemented in C (see [here](./src/runtime)) and compiled with Emscripten. The cube simulator is written in JavaScript using Three.js for stunning 3D graphics.
+## Architecture
+
+The application consists of two main components:
+
+- **Core Runtime**: High-performance Rubik's cube operations and LBL solving algorithms implemented in C ([src/runtime/](./src/runtime/))
+- **3D Interface**: Interactive cube visualization and controls built with Three.js ([src/app/](./src/app/))
+
+The C runtime is compiled to WebAssembly using Emscripten, providing native-level performance for cube operations and solving algorithms directly in the browser.
+
+## Key Components
+
+- **rubiks.c**: Complete LBL solver implementation with first layer cross, corners, second layer, and last layer algorithms
+- **cubemaster.js**: Three.js-based 3D cube visualization with smooth animations
+- **runtimeProxy.js**: WebAssembly interface and worker thread management
+- **controls.js**: User interface controls for cube manipulation and solving
 
 ## Development
 
-Build process requires Docker in order to compile C code to WebAssembly.
+Build process requires Docker to compile C code to WebAssembly.
 
-### Local development
+### Local Development
 
 Install dependencies:
-
 ```bash
 yarn --silent
 ```
 
-Run the development build locally
-
+Compile WebAssembly (development mode):
 ```bash
 yarn wasm:dev
+```
+
+Start development server:
+```bash
 yarn dev
 ```
 
-The app will launch at
-http://localhost:8080/cubemaster-pro/
+The application will be available at: http://localhost:8080/cubemaster-pro/
 
-Tests run with (make sure C code is compiled first with `yarn wasm:dev` )
-
+Run tests (requires compiled WebAssembly):
 ```bash
 yarn test
 ```
 
-In production build, optimization lookup tables are pre-generated during the build process and baked into the resulting WebAssembly to save on startup time (at the expense of asset size). For developing a production build:
+### Production Build
 
+For production builds with optimizations:
 ```bash
 yarn wasm:production
-yarn dev
-```
-
-### Production build
-
-```
 yarn build
 ```
+
+Production builds include pre-generated optimization lookup tables that are baked into the WebAssembly for faster startup times.
+
+### Available Scripts
+
+- `yarn wasm:dev` - Compile C code to WebAssembly (development)
+- `yarn wasm:production` - Compile with optimizations for production
+- `yarn codegen` - Generate optimization lookup tables
+- `yarn dev` - Start development server
+- `yarn build` - Create production build
+- `yarn test` - Run test suite
+- `yarn lint` - Lint JavaScript code
+- `yarn fmt` - Format JavaScript code
+- `yarn fmt:c` - Format C code
