@@ -12,7 +12,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "[name].[contenthash:8].js",
-        publicPath: "/cubemaster-pro/",
+        publicPath: "/",
     },
     resolve: {
         fallback: {
@@ -36,8 +36,8 @@ module.exports = {
                 developerURL: "https://cubemaster.pro",
                 background: "#1e3a8a",
                 theme_color: "#2563eb",
-                scope: "/cubemaster-pro/",
-                start_url: "/cubemaster-pro/",
+                scope: "/",
+                start_url: "/",
                 icons: {
                     coast: false,
                     yandex: false,
